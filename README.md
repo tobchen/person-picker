@@ -12,7 +12,7 @@ On startup, persons can be deactivated so as not to be considered for this scrip
 
 ## Usage
 
-To start the *Person Picker,* run: `python3 picker.py <settings>`, with `<settings>` being the path to a settings file. If no path is given, the *Person Picker* will look for a *settings.json* in the working path.
+To start the *Person Picker,* run: `python3 picker.py <settings>`, with `<settings>` being the path to a settings file. If no path is given, the *Person Picker* will look for a *settings.json* in the working directory.
 
 The user is presented with a choice to exclude persons for this script's runtime. Either enter a comma-separated list of numbers for persons to exclude or leave a blank line to continue.
 
