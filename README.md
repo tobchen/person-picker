@@ -16,7 +16,7 @@ To start the *Person Picker,* run: `python3 picker.py <settings>`, with `<settin
 
 The user is presented with a choice to exclude persons for this script's runtime. Either enter a comma-separated list of numbers for persons to exclude or leave a blank line to continue.
 
-The *Person Picker* will now randomly propose a person (considering every non-excluded person's weights), and the user can either accept the proposal (type `y`) or reject it. Each pass will readjust very non-excluded person's weight and resave the settings file.
+The *Person Picker* will now randomly propose a person (considering every non-excluded person's weights), and the user can either accept the proposal (type `y`) or reject it. Each pass will readjust every non-excluded person's weight and resave the settings file.
 
 Note that to properly work the *Person Picker's* user needs rights to:
 - Read the settings file
